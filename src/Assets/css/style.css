@@ -1,0 +1,16 @@
+html{
+    font-family: sans-serif;
+}
+
+.profile-image{
+    width: 30%;
+}
+
+.profile-image .my-name{
+    font-family: sans-serif;
+}
+
+.profile-image .designation{
+    font-family: sans-serif;
+    font-size: 16px;
+}
