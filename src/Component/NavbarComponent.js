@@ -6,7 +6,7 @@ function NavbarComponent() {
     return (
         <>
             <Navbar variant="light">
-                <Container>
+                <Container fluid>
                     <Navbar.Brand href="#home">Home</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="#home">Timeline</Nav.Link>

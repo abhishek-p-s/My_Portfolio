@@ -1,12 +1,14 @@
 html{
     font-family: sans-serif;
+    box-sizing: border-box;
 }
+
 
 .profile-image{
-    width: 30%;
+    width: 15%;
 }
 
-.profile-image .my-name{
+ .my-name{
     font-family: sans-serif;
 }
 
