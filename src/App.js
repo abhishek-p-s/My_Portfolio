@@ -6,6 +6,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Works from './Component/works';
 
 
 function App() {
@@ -14,6 +15,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+
+          <Route path="/works" element={<Works />} />
+          <Route path="/blog" element={<Home />} />
+          <Route path="/news-letter" element={<Home />} />
+          <Route path="/about" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </>
