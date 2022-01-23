@@ -6,7 +6,7 @@ export default function News() {
     return (
         <>
             <Navbar></Navbar>
-            <div className="container">
+            {/* <div className="container">
                 <div className="row mb-5" style={{ marginTop: "100px" }}>
                     <h3>News</h3>
                     <div className="col-md-4 mt-5">
@@ -15,7 +15,7 @@ export default function News() {
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="/" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
                     </div>
@@ -26,7 +26,7 @@ export default function News() {
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="/" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ export default function News() {
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="/" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
                     </div>
@@ -46,7 +46,7 @@ export default function News() {
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="/" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ export default function News() {
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="/" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ export default function News() {
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="/" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@ export default function News() {
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <a href="/" class="btn btn-primary">Go somewhere</a>
                                 </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@ export default function News() {
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <a href="/" class="btn btn-primary">Go somewhere</a>
                                 </div>
                         </div>
                     </div>
@@ -96,13 +96,13 @@ export default function News() {
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <a href="/" class="btn btn-primary">Go somewhere</a>
                                 </div>
                         </div>
                     </div>
 
                 </div>
-            </div>
+            </div> */}
             <Footer />
         </>
     );
