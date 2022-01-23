@@ -20,6 +20,7 @@ nav {
 ul {
     margin-left: 10%;
     padding: 1rem;
+    width: 50%;
 }
 
 nav ul li {
@@ -32,14 +33,6 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #000;
-}
-
-nav ul li a:hover {
-    text-decoration: none;
-    color: rgb(189, 69, 69);
-    /* border: 2px solid #3c7891;
-    padding: 5px;
-    border-radius: 5px; */
 }
 
 .profile-image {
@@ -64,4 +57,102 @@ footer ul {
 footer ul li {
     display: inline-block;
     margin: 0 35px 0px 0px;
+}
+
+.subscribe {
+    margin-top: 38px;
+    margin-left: 6%;
+}
+
+input {
+    height: 40px;
+    border: 1px solid rgb(189, 69, 69);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.subscribe button {
+    margin-left: 23px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #000;
+}
+
+.card h5 {
+    color: rgb(189, 69, 69);
+}
+
+.blog-card {
+    border: 1px solid rgb(189, 69, 69);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.blog-violin {
+    width: 25%;
+}
+
+.bar {
+    display: none;
+    float: right;
+    margin-top: -65px;
+    margin-right: 50px;
+}
+
+mobilenav ul {
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    line-height: 49px;
+    margin-left: auto;
+    background-color: rgb(127 130 132);
+    z-index: 1;
+}
+
+@media only screen and (max-width:425px) {
+    nav ul li {
+        display: none;
+    }
+    .bar {
+        display: block;
+        margin-top: -26px;
+    }
+    .profile-image {
+        width: 60%;
+    }
+    .profile-image h4 {
+        font-size: 18px;
+    }
+    .subscribe {
+        margin-top: 38px;
+        margin-left: 15%;
+    }
+    .subscribe button {
+        margin-top: 12px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer {
+        background-color: rgb(255, 255, 255);
+        height: 20%;
+        width: 100%;
+    }
+    footer ul {
+        margin-left: auto;
+        font-size: 10px;
+    }
+    footer ul li {
+        display: inline-block;
+        margin: 0 15px 0px 0px;
+    }
+    mobilenav ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
 }

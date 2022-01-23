@@ -7,6 +7,9 @@ import {
   Route
 } from "react-router-dom";
 import Works from './Component/works';
+import About from "./Component/about";
+import Blog from "./Component/blog"
+import News from "./Component/News"
 
 
 function App() {
@@ -15,11 +18,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-
           <Route path="/works" element={<Works />} />
-          <Route path="/blog" element={<Home />} />
-          <Route path="/news-letter" element={<Home />} />
-          <Route path="/about" element={<Home />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/news" element={<News />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </BrowserRouter>
     </>

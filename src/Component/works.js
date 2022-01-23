@@ -4,34 +4,124 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 
 function works() {
-
-
     return (
-        <><Navbar></Navbar>
+        <>
+            <Navbar></Navbar>
             <div className="container">
-                <div className="row">
-                    <div className="col-md-12 " style={{ marginTop: "100px" }}>
-                        <Timeline
-                            pivot="vertical"
-
-                            direction="center"
-                            tooltip={true}
-                            textLimit="none"
-                            timelines={[
-                                {
-                                    title: 'C.A. Alexander, A Pattern Language, New York,, 1977.',
-                                    sub: '10 May 2020',
-                                },
-                                {
-                                    title: 'E. Yourdon, L. Constantine, Structured Design, N.J.,, 1978.',
-                                    sub: '12 May 2020',
-                                },
-                                {
-                                    title: 'C.A. Alexander, The Timeless Way of Building, New York,, 1979.',
-                                    sub: '05 July 2020',
-                                }
-                            ]} />
+                <div className="row mb-5" style={{ marginTop: "100px" }}>
+                    <h3>Projects</h3>
+                    <div className="col-md-4 mt-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Diana Art Gallery</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Shopping cart project</h6>
+                                <p class="card-text">React, Laravel project</p>
+                                <a href="#" class="card-link btn btn-danger text-white">Go</a>
+                            </div>
+                        </div>
                     </div>
+                    <div className="col-md-4 mt-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">One dashboard</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Compined project of VMS, IMT, feedback project</h6>
+                                <p class="card-text">React, Laravel project</p>
+                                <a href="#" class="card-link btn btn-danger text-white">Go</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 mt-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Re-dt Website</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Webpage for realestate business project</h6>
+                                <p class="card-text">php, html, javscript, css project</p>
+                                <a href="#" class="card-link btn btn-danger text-white">Go</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 mt-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Digital Logbook</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Logbook  project</h6>
+                                <p class="card-text">React, Laravel project</p>
+                                <a href="#" class="card-link btn btn-danger text-white">Go</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 mt-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Marwan electrical Website</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">html,css, javascript,php project</h6>
+                                <p class="card-text">React, Laravel project</p>
+                                <a href="#" class="card-link btn btn-danger text-white">Go</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 mt-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Builtech Website</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Website</h6>
+                                <p class="card-text">php,javascript project</p>
+                                <a href="#" class="card-link btn btn-danger text-white">Go</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 mt-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Titan Website</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Website</h6>
+                                <p class="card-text">php,javascript,html</p>
+                                <a href="#" class="card-link btn btn-danger text-white">Go</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 mt-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Kapil Mohan website</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Website</h6>
+                                <p class="card-text">php,javascript,html</p>
+                                <a href="#" class="card-link btn btn-danger text-white">Go</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 mt-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">FROSEC  website</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Website</h6>
+                                <p class="card-text">html,javascript,php</p>
+                                <a href="#" class="card-link btn btn-danger text-white">Go</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4 mt-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">dyhs website</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Website</h6>
+                                <p class="card-text">laravel</p>
+                                <a href="#" class="card-link btn btn-danger text-white">Go</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 mt-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"> peregrine website </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Website</h6>
+                                <p class="card-text">php</p>
+                                <a href="#" class="card-link btn btn-danger text-white">Go</a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <Footer />
