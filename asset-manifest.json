@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/abhishek-p-s/My_Portfolio/static/css/main.e08f14ff.css",
+    "main.js": "/abhishek-p-s/My_Portfolio/static/js/main.5a17fb13.js",
+    "static/js/787.128fc6e9.chunk.js": "/abhishek-p-s/My_Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/violin.jpeg": "/abhishek-p-s/My_Portfolio/static/media/violin.ee2ea0d93cb1379ba200.jpeg",
+    "index.html": "/abhishek-p-s/My_Portfolio/index.html",
+    "main.e08f14ff.css.map": "/abhishek-p-s/My_Portfolio/static/css/main.e08f14ff.css.map",
+    "main.5a17fb13.js.map": "/abhishek-p-s/My_Portfolio/static/js/main.5a17fb13.js.map",
+    "787.128fc6e9.chunk.js.map": "/abhishek-p-s/My_Portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e08f14ff.css",
+    "static/js/main.5a17fb13.js"
+  ]
+}
